@@ -2,6 +2,7 @@
  margin: 0px;
 padding: 0px;
 box-sizing: border-box;
+color: white;
 }
 .parent {
  font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,7 +27,6 @@ height: 80px;
 
 
 .menu a {
-    color: white;
     padding: 5px;
     display: flex;
     text-decoration: none;
@@ -36,7 +36,7 @@ height: 80px;
 }
 
 .fa-solid {
- color: rgb(0, 238, 32);
+ color: rgb(16, 139, 32);
 padding: 20px;
 margin-left: 40px;
 margin-bottom: 40px;
@@ -44,7 +44,6 @@ margin-bottom: 40px;
 }
 
 .logo-title {
-color: white;
 margin-top: 20px;
 
 }
@@ -56,7 +55,6 @@ margin-left: 10px;
 
 .main-content {
 text-align: left;
-color: white;
 margin-top: 200px;
 padding: 20px;
 /* line-height: 100px; */
@@ -69,8 +67,7 @@ button {
     width: 160px;
     padding: 15px;
     border-radius: 5px;
-    background-color: rgb(0, 255, 0);
-    color: white;
+    background-color: rgb(17, 126, 17);
     text-decoration: none;
     margin-top: 20px;
     border: none;
@@ -87,3 +84,31 @@ margin-top: 20px;
 
 }
 
+.about-us {
+  text-align: left;
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 100px;
+
+}
+
+.about-title {
+font
+}
+
+
+ .about-us-paragraph1 {
+
+  margin-top: 25px;
+  
+   }
+  
+.about-us-paragraph2 {
+  margin-top: 25px;
+}
+
+hr {
+margin-top: 90px;
+border: 1px solid white; 
+
+}
