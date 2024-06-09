@@ -8,13 +8,13 @@ box-sizing: border-box;
 }
 
 body {
-background-color: rgb(63, 63, 63);
+background-color: rgb(128, 79, 113);
 
 }
 
 .menu  {
   display: flex;
-background-color: rgb(20, 20, 20);
+background-color: rgb(61, 29, 54);
 height: 80px;
 }
 
@@ -36,7 +36,7 @@ height: 80px;
 }
 
 .fa-solid {
- color: orange;
+ color: rgb(238, 0, 186);
 padding: 20px;
 margin-left: 40px;
 margin-bottom: 40px;
@@ -69,7 +69,7 @@ button {
     width: 160px;
     padding: 15px;
     border-radius: 5px;
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(255, 97, 216);
     color: white;
     text-decoration: none;
     margin-top: 20px;
