@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
 }
 
 .parent {
@@ -11,9 +10,9 @@
 
 body {
   background-color: rgb(161, 238, 142);
-
 }
 
+/* Header */
 .menu {
   display: flex;
   background-color: rgb(79, 230, 99);
@@ -22,19 +21,14 @@ body {
 
 .menu .home {
   margin-left: 700px;
-
-
 }
 
-
 .menu a {
-  padding-left: 50px;
-  padding-top: 5px;
-  display: flex;
   text-decoration: none;
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 25px;
   color: white;
+  margin-left: 60px;
 }
 
 .fa-solid {
@@ -42,20 +36,14 @@ body {
   padding: 20px;
   margin-left: 40px;
   margin-bottom: 40px;
-
 }
 
 .logo-title {
   margin-top: 20px;
   color: white;
-
 }
 
-a {
-  margin-left: 10px;
-
-}
-
+/* School slogan and Join button */
 .main-content {
   text-align: left;
   margin-top: 120px;
@@ -63,7 +51,6 @@ a {
   margin-left: 40px;
   color: white;
 }
-
 
 button {
   width: 160px;
@@ -74,7 +61,6 @@ button {
   margin-top: 20px;
   border: none;
   color: white;
-
 }
 
 .title {
@@ -82,46 +68,35 @@ button {
 
 }
 
-.subtitle {
-font-size: 20px;
-margin-top: 20px;
-}
-
+.subtitle
 .subtitle-2 {
   font-size: 20px;
   margin-top: 20px;
-  }
+}
 
+/* About us */
 .about-us {
   text-align: left;
   padding: 20px;
   margin-left: 40px;
-  margin-top: 100px;
+  margin-top: 70px;
   color: white;
   font-size: 20px;
 }
 
-.about-us-paragraph1 {
-
+.about-us-paragraph2
+.about-us-paragraph1
+ {
   margin-top: 25px;
-  color: white;
-  font-size: 20px;
-
-}
-
-.about-us-paragraph2 {
-  margin-top: 25px;
-  color: white;
-  font-size: 20px;
+  padding: 0 20px 0 0 0 ;
 }
 
 hr {
   margin-top: 90px;
   border: 1px solid white;
-  margin-right: 20px;
-
 }
 
+/* Courses section */
 .html-logo {
   width: 188px;
   height: 255px;
@@ -145,110 +120,96 @@ hr {
   text-align: left;
   padding: 20px;
   margin-left: 40px;
-  margin-top: 100px;
+  margin-top: 70px;
   color: white;
   font-size: 20px;
-
 }
 
 .course-details {
   display: flex;
 }
 
-/* p {
-  margin: 100px;
-} */
+/* Contact Us section */
+.contact-us-heading {
+  color: white;
+  margin-left: 60px;
+  margin-top: 70px;
+}
+
+.contact-us {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 0 67px 0 67px;
+}
 
 .contact-title {
-color: white;
-font-size: 40px;
-margin-left: 600px;
-
+  color: white;
+  font-size: 40px;
+  margin-left: 70px;
+  margin-top: 70px;
+  font-size: 20px;
 }
 
-.form-alignment {
-  color: rgb(161, 238, 142);
+/* Forms Section */
+.form-fields {
+  margin-top: 40px;
+  padding: 30px;
+  width: 360px;
+  height: 440px;
   background-color: white;
- width: 226px;
- height: 400px;
- /* color: black; */
- margin-left: 900px;
- margin-top: 0px;
- display: grid;
- padding: 20px;
+  border-radius: 5px;
+  border: 1px solid green;
 }
-
 
 .submit-form-button {
-margin-left: 6px;
-width: 160px;
-margin-bottom: 220px;
+  margin-left: 6px;
+  width: 160px;
+  margin-bottom: 220px;
 }
 
-.form-alignment {
-border-radius: 5px;
-border: black;
-
-
-}
-
-.form-alignment {
-margin-left: 200px;
-margin-top: 40px;
-}
-
-.message {
-margin-top: 20px;
-
-}
-
-.email {
- margin-top: 20px; 
-}
-.phone-number {
-margin-top: 20px;
-
-}
-
+.message
+.email
+.phone-number
 .last-name {
-margin-top: 20px;
-
+  margin-top: 20px;
 }
 
 input {
   padding: 7px;
 }
 
+/* Footer section */
 footer {
-color: white;
-text-align: center;
-margin-top: 100px;
-padding: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
 }
+
 footer a {
   color: white;
   text-align: center;
-  }
+}
 
 .social-favicons {
-margin-bottom: 20px ;
+  margin-bottom: 20px;
 }
 
 .terms-and-conditions {
-margin-right: 5px;
-
+  margin-right: 5px;
 }
 
 .privacy-policy {
   margin-left: 5px;
-  
-  }
+}
 
-  .ownership {
+.ownership {
   margin-top: 20px;
+}
 
-  }
-  .first-line {
+.first-line {
   margin-bottom: 20px;
-
-  }
+}
