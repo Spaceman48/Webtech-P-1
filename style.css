@@ -28,15 +28,17 @@ body {
 
 
 .menu a {
-  padding: 5px;
+  padding-left: 50px;
+  padding-top: 5px;
   display: flex;
   text-decoration: none;
   font-size: 20px;
   margin-top: 20px;
+  color: white;
 }
 
 .fa-solid {
-  color: rgb(16, 139, 32);
+  color: rgb(255, 255, 255);
   padding: 20px;
   margin-left: 40px;
   margin-bottom: 40px;
@@ -45,6 +47,7 @@ body {
 
 .logo-title {
   margin-top: 20px;
+  color: white;
 
 }
 
@@ -55,7 +58,7 @@ a {
 
 .main-content {
   text-align: left;
-  margin-top: 200px;
+  margin-top: 120px;
   padding: 20px;
   margin-left: 40px;
   color: white;
@@ -65,7 +68,7 @@ a {
 button {
   width: 160px;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 1px;
   background-color: rgb(17, 126, 17);
   text-decoration: none;
   margin-top: 20px;
@@ -76,13 +79,18 @@ button {
 
 .title {
   font-size: 60px;
-  color: white;
+
 }
 
 .subtitle {
-  margin-top: 20px;
-  color: white;
+font-size: 20px;
+margin-top: 20px;
 }
+
+.subtitle-2 {
+  font-size: 20px;
+  margin-top: 20px;
+  }
 
 .about-us {
   text-align: left;
@@ -90,24 +98,27 @@ button {
   margin-left: 40px;
   margin-top: 100px;
   color: white;
+  font-size: 20px;
 }
 
 .about-us-paragraph1 {
 
   margin-top: 25px;
   color: white;
+  font-size: 20px;
 
 }
 
 .about-us-paragraph2 {
   margin-top: 25px;
   color: white;
+  font-size: 20px;
 }
 
 hr {
   margin-top: 90px;
   border: 1px solid white;
-  width: 1550px;
+  margin-right: 20px;
 
 }
 
@@ -136,6 +147,7 @@ hr {
   margin-left: 40px;
   margin-top: 100px;
   color: white;
+  font-size: 20px;
 
 }
 
@@ -143,33 +155,100 @@ hr {
   display: flex;
 }
 
-p {
+/* p {
   margin: 100px;
+} */
+
+.contact-title {
+color: white;
+font-size: 40px;
+margin-left: 600px;
+
 }
 
-.contact-us {
+.form-alignment {
   color: rgb(161, 238, 142);
   background-color: white;
- width: 600px;
+ width: 226px;
  height: 400px;
  /* color: black; */
- margin-left: 650px;
- 
+ margin-left: 900px;
+ margin-top: 0px;
+ display: grid;
+ padding: 20px;
 }
 
-.contact-us form {
-  padding: 20px;
-}
 
 .submit-form-button {
-margin-left: 23px;
-
+margin-left: 6px;
+width: 160px;
+margin-bottom: 220px;
 }
 
-.forms {
+.form-alignment {
 border-radius: 5px;
 border: black;
 
 
+}
+
+.form-alignment {
+margin-left: 200px;
+margin-top: 40px;
+}
+
+.message {
+margin-top: 20px;
 
 }
+
+.email {
+ margin-top: 20px; 
+}
+.phone-number {
+margin-top: 20px;
+
+}
+
+.last-name {
+margin-top: 20px;
+
+}
+
+input {
+  padding: 7px;
+}
+
+footer {
+color: white;
+text-align: center;
+margin-top: 100px;
+padding: 20px;
+}
+footer a {
+  color: white;
+  text-align: center;
+  }
+
+.social-favicons {
+margin-bottom: 20px ;
+}
+
+.terms-and-conditions {
+margin-right: 5px;
+
+}
+
+.privacy-policy {
+  margin-left: 5px;
+  
+  }
+
+  .ownership {
+  margin-top: 20px;
+
+  }
+  .first-line {
+  margin-bottom: 20px;
+
+  }
